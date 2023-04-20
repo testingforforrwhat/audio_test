@@ -33,7 +33,9 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    QMediaPlayer* player = new QMediaPlayer;
-    player->stop();
+//    QMediaPlayer* player = new QMediaPlayer;
+//    player->stop();
+    test thetest;
+    thetest.stopaudio();
 }
 
